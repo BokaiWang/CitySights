@@ -11,6 +11,7 @@
 		E1C2F7BB27701D8C00650E79 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7BA27701D8C00650E79 /* LaunchView.swift */; };
 		E1C2F7BD27701D8D00650E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7BC27701D8D00650E79 /* Assets.xcassets */; };
 		E1C2F7C027701D8D00650E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7BF27701D8D00650E79 /* Preview Assets.xcassets */; };
+		E1C2F7CA27701FD600650E79 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7C927701FD600650E79 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E1C2F7BA27701D8C00650E79 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		E1C2F7BC27701D8D00650E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C2F7BF27701D8D00650E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1C2F7C927701FD600650E79 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		E1C2F7C627701DCB00650E79 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E1C2F7C927701FD600650E79 /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				E1C2F7BB27701D8C00650E79 /* LaunchView.swift in Sources */,
 				E1C2F7B927701D8C00650E79 /* CitySightsApp.swift in Sources */,
+				E1C2F7CA27701FD600650E79 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				DEVELOPMENT_TEAM = LX3XJY64AG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +330,7 @@
 				DEVELOPMENT_TEAM = LX3XJY64AG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
