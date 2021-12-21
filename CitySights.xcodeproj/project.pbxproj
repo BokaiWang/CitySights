@@ -20,6 +20,7 @@
 		E1C2F7DB27723E1700650E79 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DA27723E1700650E79 /* BusinessList.swift */; };
 		E1C2F7DD277240AF00650E79 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */; };
 		E1C2F7DF2772418600650E79 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DE2772418600650E79 /* BusinessSection.swift */; };
+		E1C2F7E12772607700650E79 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7E02772607700650E79 /* BusinessRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E1C2F7DA27723E1700650E79 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
 		E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
 		E1C2F7DE2772418600650E79 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		E1C2F7E02772607700650E79 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				E1C2F7DA27723E1700650E79 /* BusinessList.swift */,
 				E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */,
 				E1C2F7DE2772418600650E79 /* BusinessSection.swift */,
+				E1C2F7E02772607700650E79 /* BusinessRow.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				E1C2F7CE277229D400650E79 /* Business.swift in Sources */,
 				E1C2F7D327722F1F00650E79 /* Constants.swift in Sources */,
 				E1C2F7DB27723E1700650E79 /* BusinessList.swift in Sources */,
+				E1C2F7E12772607700650E79 /* BusinessRow.swift in Sources */,
 				E1C2F7D82772355200650E79 /* HomeView.swift in Sources */,
 				E1C2F7CA27701FD600650E79 /* ContentModel.swift in Sources */,
 				E1C2F7D027722C0900650E79 /* BusinessSearch.swift in Sources */,

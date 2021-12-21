@@ -83,13 +83,24 @@ class ContentModel: NSObject, ObservableObject, CLLocationManagerDelegate {
                     // Parse json
                     do {
                         let parsedData = try JSONDecoder().decode(BusinessSearch.self, from: data!)
+                        // Sort businesses
+                        var businesses = parsedData.businesses
+                        businesses.sort { (b1, b2) -> Bool in
+                            return b1.distance ?? 0 < b2.distance ?? 0
+                        }
+                        
+                        // Call the getImage method of the businesses
+                        for b in businesses {
+                            b.getImageData()
+                        }
+                        
                         // Assign results to the appropriate property
                         DispatchQueue.main.async {
                             switch category {
                             case Constants.sightskey:
-                                self.sights = parsedData.businesses
+                                self.sights = businesses
                             case Constants.restaurantsKey:
-                                self.restaurants = parsedData.businesses
+                                self.restaurants = businesses
                             default:
                                 break
                             }

@@ -8,7 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct Business: Decodable, Identifiable {
+class Business: Decodable, Identifiable, ObservableObject {
+    @Published var imageData: Data?
+    
     var id: String?
     var alias: String?
     var name: String?
@@ -44,6 +46,28 @@ struct Business: Decodable, Identifiable {
         case location
         case phone
         case distance
+    }
+    
+    func getImageData() {
+        // Check that image url isn't nil
+        guard imageUrl != nil else {
+            return
+        }
+        // Download the data for the image
+        if let url = URL(string: imageUrl!) {
+            // Get a session
+            let session = URLSession.shared
+            let dataTask = session.dataTask(with: url) { data, response, error in
+                if error == nil {
+                    DispatchQueue.main.async {
+                        // Set the image data
+                        self.imageData = data!
+                    }
+                }
+            }
+            dataTask.resume()
+        }
+        
     }
 }
 
