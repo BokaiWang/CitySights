@@ -16,6 +16,10 @@
 		E1C2F7CE277229D400650E79 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7CD277229D400650E79 /* Business.swift */; };
 		E1C2F7D027722C0900650E79 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7CF27722C0900650E79 /* BusinessSearch.swift */; };
 		E1C2F7D327722F1F00650E79 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7D227722F1F00650E79 /* Constants.swift */; };
+		E1C2F7D82772355200650E79 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7D72772355200650E79 /* HomeView.swift */; };
+		E1C2F7DB27723E1700650E79 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DA27723E1700650E79 /* BusinessList.swift */; };
+		E1C2F7DD277240AF00650E79 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */; };
+		E1C2F7DF2772418600650E79 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7DE2772418600650E79 /* BusinessSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		E1C2F7CD277229D400650E79 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		E1C2F7CF27722C0900650E79 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
 		E1C2F7D227722F1F00650E79 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E1C2F7D72772355200650E79 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E1C2F7DA27723E1700650E79 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		E1C2F7DE2772418600650E79 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				E1C2F7BA27701D8C00650E79 /* LaunchView.swift */,
+				E1C2F7D62772354500650E79 /* Home */,
+				E1C2F7D52772353E00650E79 /* Denied */,
+				E1C2F7D42772353300650E79 /* Onboarding */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +123,39 @@
 				E1C2F7D227722F1F00650E79 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1C2F7D42772353300650E79 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E1C2F7D52772353E00650E79 /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		E1C2F7D62772354500650E79 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2F7D927723E0800650E79 /* List */,
+				E1C2F7D72772355200650E79 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E1C2F7D927723E0800650E79 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				E1C2F7DA27723E1700650E79 /* BusinessList.swift */,
+				E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */,
+				E1C2F7DE2772418600650E79 /* BusinessSection.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,11 +228,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C2F7DF2772418600650E79 /* BusinessSection.swift in Sources */,
 				E1C2F7BB27701D8C00650E79 /* LaunchView.swift in Sources */,
 				E1C2F7CC2772245E00650E79 /* Keys.swift in Sources */,
+				E1C2F7DD277240AF00650E79 /* BusinessSectionHeader.swift in Sources */,
 				E1C2F7B927701D8C00650E79 /* CitySightsApp.swift in Sources */,
 				E1C2F7CE277229D400650E79 /* Business.swift in Sources */,
 				E1C2F7D327722F1F00650E79 /* Constants.swift in Sources */,
+				E1C2F7DB27723E1700650E79 /* BusinessList.swift in Sources */,
+				E1C2F7D82772355200650E79 /* HomeView.swift in Sources */,
 				E1C2F7CA27701FD600650E79 /* ContentModel.swift in Sources */,
 				E1C2F7D027722C0900650E79 /* BusinessSearch.swift in Sources */,
 			);
