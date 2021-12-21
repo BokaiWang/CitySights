@@ -12,6 +12,7 @@
 		E1C2F7BD27701D8D00650E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7BC27701D8D00650E79 /* Assets.xcassets */; };
 		E1C2F7C027701D8D00650E79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C2F7BF27701D8D00650E79 /* Preview Assets.xcassets */; };
 		E1C2F7CA27701FD600650E79 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7C927701FD600650E79 /* ContentModel.swift */; };
+		E1C2F7CC2772245E00650E79 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C2F7CB2772245E00650E79 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E1C2F7BC27701D8D00650E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1C2F7BF27701D8D00650E79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1C2F7C927701FD600650E79 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		E1C2F7CB2772245E00650E79 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E1C2F7C627701DCB00650E79 /* ViewModels */,
 				E1C2F7BC27701D8D00650E79 /* Assets.xcassets */,
 				E1C2F7BE27701D8D00650E79 /* Preview Content */,
+				E1C2F7CB2772245E00650E79 /* Keys.swift */,
 			);
 			path = CitySights;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C2F7BB27701D8C00650E79 /* LaunchView.swift in Sources */,
+				E1C2F7CC2772245E00650E79 /* Keys.swift in Sources */,
 				E1C2F7B927701D8C00650E79 /* CitySightsApp.swift in Sources */,
 				E1C2F7CA27701FD600650E79 /* ContentModel.swift in Sources */,
 			);
