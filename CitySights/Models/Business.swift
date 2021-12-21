@@ -67,7 +67,6 @@ class Business: Decodable, Identifiable, ObservableObject {
             }
             dataTask.resume()
         }
-        
     }
 }
 
