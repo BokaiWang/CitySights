@@ -150,6 +150,7 @@
 			children = (
 				E1C2F7E52773E21C00650E79 /* Map */,
 				E1C2F7D72772355200650E79 /* HomeView.swift */,
+				E1C2F7E2277277B700650E79 /* Detail */,
 				E1C2F7D927723E0800650E79 /* List */,
 			);
 			path = Home;
@@ -162,7 +163,6 @@
 				E1C2F7DC277240AF00650E79 /* BusinessSectionHeader.swift */,
 				E1C2F7DE2772418600650E79 /* BusinessSection.swift */,
 				E1C2F7E02772607700650E79 /* BusinessRow.swift */,
-				E1C2F7E2277277B700650E79 /* Detail */,
 			);
 			path = List;
 			sourceTree = "<group>";
