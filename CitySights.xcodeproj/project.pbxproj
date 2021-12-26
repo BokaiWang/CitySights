@@ -148,8 +148,8 @@
 		E1C2F7D62772354500650E79 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E1C2F7E52773E21C00650E79 /* Map */,
 				E1C2F7D72772355200650E79 /* HomeView.swift */,
+				E1C2F7E52773E21C00650E79 /* Map */,
 				E1C2F7E2277277B700650E79 /* Detail */,
 				E1C2F7D927723E0800650E79 /* List */,
 			);
